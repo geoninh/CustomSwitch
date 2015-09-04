@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07DC46D11B95A2F000E4CE9A /* OffBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DC46CD1B95A2F000E4CE9A /* OffBlack.png */; };
+		07DC46D21B95A2F000E4CE9A /* OffWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DC46CE1B95A2F000E4CE9A /* OffWhite.png */; };
+		07DC46D31B95A2F000E4CE9A /* OnBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DC46CF1B95A2F000E4CE9A /* OnBlack.png */; };
+		07DC46D41B95A2F000E4CE9A /* OnWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DC46D01B95A2F000E4CE9A /* OnWhite.png */; };
 		07E09B711B7C09C8002C648E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E09B701B7C09C8002C648E /* main.m */; };
 		07E09B741B7C09C8002C648E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E09B731B7C09C8002C648E /* AppDelegate.m */; };
 		07E09B771B7C09C8002C648E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E09B761B7C09C8002C648E /* ViewController.m */; };
@@ -14,6 +18,8 @@
 		07E09B7C1B7C09C8002C648E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E09B7B1B7C09C8002C648E /* Images.xcassets */; };
 		07E09B7F1B7C09C8002C648E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07E09B7D1B7C09C8002C648E /* LaunchScreen.xib */; };
 		07E09B8B1B7C09C8002C648E /* CustomSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E09B8A1B7C09C8002C648E /* CustomSwitchTests.m */; };
+		07E75C5A1B95787F00552875 /* CustomSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E75C591B95787F00552875 /* CustomSwitch.m */; };
+		07F546F71B96F0090049A500 /* Why_Not_Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07F546F61B96F0090049A500 /* Why_Not_Me.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07DC46CD1B95A2F000E4CE9A /* OffBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OffBlack.png; sourceTree = "<group>"; };
+		07DC46CE1B95A2F000E4CE9A /* OffWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OffWhite.png; sourceTree = "<group>"; };
+		07DC46CF1B95A2F000E4CE9A /* OnBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OnBlack.png; sourceTree = "<group>"; };
+		07DC46D01B95A2F000E4CE9A /* OnWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OnWhite.png; sourceTree = "<group>"; };
 		07E09B6B1B7C09C8002C648E /* CustomSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E09B6F1B7C09C8002C648E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07E09B701B7C09C8002C648E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +50,9 @@
 		07E09B841B7C09C8002C648E /* CustomSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E09B891B7C09C8002C648E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07E09B8A1B7C09C8002C648E /* CustomSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomSwitchTests.m; sourceTree = "<group>"; };
+		07E75C581B95787F00552875 /* CustomSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSwitch.h; sourceTree = "<group>"; };
+		07E75C591B95787F00552875 /* CustomSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSwitch.m; sourceTree = "<group>"; };
+		07F546F61B96F0090049A500 /* Why_Not_Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Why_Not_Me.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +76,12 @@
 		07E09B621B7C09C8002C648E = {
 			isa = PBXGroup;
 			children = (
+				07F546F61B96F0090049A500 /* Why_Not_Me.mp3 */,
+				07DC46CD1B95A2F000E4CE9A /* OffBlack.png */,
+				07DC46CE1B95A2F000E4CE9A /* OffWhite.png */,
+				07DC46CF1B95A2F000E4CE9A /* OnBlack.png */,
+				07DC46D01B95A2F000E4CE9A /* OnWhite.png */,
+				07E75C571B9576C000552875 /* CustomSwitch */,
 				07E09B6D1B7C09C8002C648E /* CustomSwitch */,
 				07E09B871B7C09C8002C648E /* CustomSwitchTests */,
 				07E09B6C1B7C09C8002C648E /* Products */,
@@ -117,6 +136,15 @@
 				07E09B891B7C09C8002C648E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07E75C571B9576C000552875 /* CustomSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				07E75C581B95787F00552875 /* CustomSwitch.h */,
+				07E75C591B95787F00552875 /* CustomSwitch.m */,
+			);
+			name = CustomSwitch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +227,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07DC46D31B95A2F000E4CE9A /* OnBlack.png in Resources */,
 				07E09B7A1B7C09C8002C648E /* Main.storyboard in Resources */,
+				07DC46D41B95A2F000E4CE9A /* OnWhite.png in Resources */,
 				07E09B7F1B7C09C8002C648E /* LaunchScreen.xib in Resources */,
 				07E09B7C1B7C09C8002C648E /* Images.xcassets in Resources */,
+				07F546F71B96F0090049A500 /* Why_Not_Me.mp3 in Resources */,
+				07DC46D21B95A2F000E4CE9A /* OffWhite.png in Resources */,
+				07DC46D11B95A2F000E4CE9A /* OffBlack.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +254,7 @@
 			files = (
 				07E09B771B7C09C8002C648E /* ViewController.m in Sources */,
 				07E09B741B7C09C8002C648E /* AppDelegate.m in Sources */,
+				07E75C5A1B95787F00552875 /* CustomSwitch.m in Sources */,
 				07E09B711B7C09C8002C648E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +450,7 @@
 				07E09B901B7C09C8002C648E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07E09B911B7C09C8002C648E /* Build configuration list for PBXNativeTarget "CustomSwitchTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +459,7 @@
 				07E09B931B7C09C8002C648E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
